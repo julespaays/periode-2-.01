@@ -31,6 +31,7 @@ namespace rekenmachine
             string strLocation = Convert.ToString(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory));
             string strContent = "cunt";
 
+
             File.WriteAllText(strLocation + strRip, strContent);
         }
 
